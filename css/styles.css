@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 450px;
+  width: 375px;
+}
+
+img {
+  width: 100%;
+}
+
+header .container {
+  padding: 40px 24px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+header .bg-image {
+  position: absolute;
+  width: 600px;
+  top: -270px;
+  right: -250px;
+  z-index: -5;
+}
+
+header .logo {
+  width: 146px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  color: #191826;
+  margin-top: 64px;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: 191826;
+  margin-top: 20px;
+}
+
+main .container {
+  height: 600px;
+  background-image: url('../assets/bg-pattern-2.svg');
+  background-repeat: no-repeat;
+  background-size: 280px;
+  background-position: top;
+  border-radius: 12px;
+  background-color: #191826;
+  color: #fcfaf9;
+  margin-top: 166px;
+  position: relative;
+}
+
+main .illustration {
+  width: 209px;
+  position: relative;
+}
+
+main .illustration img {
+  position: absolute;
+  left: 80px;
+  top: -100px;
+}
+
+main .card {
+  width: 100%;
+  padding: 48px 36px;
+  background-color: #fa7453;
+  border-radius: 12px;
+  position: absolute;
+  bottom: -335px;
+}
+
+main .card h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+main .card .desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 12px;
+}
+
+main .card .price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
+
+main .card .price span {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+}
+
+main .card .btn {
+  width: 100%;
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  border: none;
+  border-radius: 12px;
+}
+
+main .card .btn img {
+  width: 17px;
+  margin-right: 8px;
+}
+
+main .card .btn.apple {
+  background-color: #191826;
+  color: #fcfaf9;
+}
+
+main .card .btn.android {
+  background-color: #fcfaf9;
+  margin-top: 16px;
+}
+
+footer {
+  margin-top: 390px;
+}
+
+footer .container {
+  padding: 0 24px 80px;
+}
+
+footer .logo {
+  width: 146px;
+  margin-bottom: 32px;
+}
+
+footer .info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+
+footer .info a {
+  font-weight: 700;
+  color: #191826;
+  text-decoration: none;
+}
+
+footer .socials {
+  margin-top: 64px;
+  display: flex;
+}
+
+footer .socials div {
+  width: 20px;
+  margin-right: 20px;
+}
