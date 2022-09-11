@@ -14,7 +14,11 @@ body {
 .container {
   margin: 0 auto;
   max-width: 450px;
-  width: 375px;
+  /* width: 375px; */
+}
+
+.bg-pattern {
+  display: none;
 }
 
 img {
@@ -52,7 +56,7 @@ header p {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: 191826;
+  color: #191826;
   margin-top: 20px;
 }
 
@@ -176,4 +180,107 @@ footer .socials {
 footer .socials div {
   width: 20px;
   margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 850px;
+    /* width: 768px; */
+  }
+
+  .bg-pattern {
+    display: block;
+    position: absolute;
+    width: 267px;
+    top: -32px;
+    right: -36px;
+    z-index: -1;
+  }
+
+  header .container {
+    padding: 62px 215px 249px 39px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header .bg-image {
+    position: absolute;
+    width: 1250px;
+    top: -300px;
+    right: -100px;
+    z-index: -5;
+  }
+
+  header h1 {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0.7px;
+    margin-top: 95px;
+  }
+
+  header p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 28px;
+  }
+
+  main .container {
+    background-position: center -35px;
+    margin-top: 0;
+    /* padding: 0 39px 0 33px; */
+    width: 696px;
+    margin: 0 auto;
+  }
+
+  main .illustration {
+    width: 270px;
+  }
+
+  main .illustration img {
+    left: 48px;
+    top: -140px;
+  }
+
+  main .card {
+    width: 399px;
+    padding: 48px;
+    bottom: -96px;
+    right: 58px;
+  }
+
+  footer {
+    margin: 183px auto 0;
+    width: 696px;
+  }
+
+  footer .container {
+    padding: 0 36px 85px;
+    position: relative;
+  }
+
+  footer .logo {
+    width: 146px;
+    margin-bottom: 32px;
+  }
+
+  footer .info {
+    width: 366px;
+  }
+
+  footer .socials {
+    margin-top: 0;
+    display: flex;
+    position: absolute;
+    bottom: 114px;
+    right: 0;
+  }
+
+  footer .socials div {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  footer .socials div:last-child {
+    margin-right: 0;
+  }
 }
