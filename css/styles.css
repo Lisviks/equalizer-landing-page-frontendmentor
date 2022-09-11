@@ -177,9 +177,30 @@ footer .socials {
   display: flex;
 }
 
-footer .socials div {
+/* footer .socials div {
   width: 20px;
   margin-right: 20px;
+} */
+
+footer .socials .facebook {
+  mask: url('../assets/icon-facebook.svg');
+}
+
+footer .socials .instagram {
+  mask: url('../assets/icon-instagram.svg');
+}
+
+footer .socials .twitter {
+  mask: url('../assets/icon-twitter.svg');
+  height: 17px !important;
+}
+
+footer .socials div {
+  margin-right: 20px;
+  mask-size: contain;
+  width: 20px;
+  height: 20px;
+  background: #191826;
 }
 
 @media (min-width: 768px) {
@@ -225,9 +246,8 @@ footer .socials div {
   }
 
   main .container {
-    background-position: center -35px;
+    background-position: 229px -35px;
     margin-top: 0;
-    /* padding: 0 39px 0 33px; */
     width: 696px;
     margin: 0 auto;
   }
@@ -237,8 +257,8 @@ footer .socials div {
   }
 
   main .illustration img {
-    left: 48px;
-    top: -140px;
+    left: 64px;
+    top: -138px;
   }
 
   main .card {
@@ -249,11 +269,11 @@ footer .socials div {
   }
 
   footer {
-    margin: 183px auto 0;
-    width: 696px;
+    margin-top: 183px;
   }
 
   footer .container {
+    width: 696px;
     padding: 0 36px 85px;
     position: relative;
   }
@@ -275,12 +295,115 @@ footer .socials div {
     right: 0;
   }
 
-  footer .socials div {
-    width: 20px;
-    margin-right: 20px;
-  }
-
   footer .socials div:last-child {
     margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1500px;
+    width: 1440px;
+  }
+
+  .bg-pattern {
+    top: -40px;
+    right: 0;
+  }
+
+  header .container {
+    padding: 62px 260px 321px 165px;
+  }
+
+  header .bg-image {
+    position: absolute;
+    width: 1900px;
+    top: -270px;
+    right: -180px;
+    z-index: -5;
+  }
+
+  header h1 {
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    margin-top: 127px;
+  }
+
+  header p {
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 40px;
+    width: 830px;
+  }
+
+  main .container {
+    background-position: 336px -35px;
+    background-size: 312px;
+    width: 1110px;
+  }
+
+  main .illustration {
+    width: 312px;
+  }
+
+  main .illustration img {
+    left: 102px;
+    top: -213px;
+  }
+
+  main .card {
+    width: 446px;
+    padding: 58px 59px 48px 54px;
+    bottom: -115px;
+    right: 95px;
+  }
+
+  main .card h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  main .card .desc {
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 22px;
+  }
+
+  main .card .price {
+    margin-top: 39px;
+    margin-bottom: 46px;
+  }
+
+  main .card .btn.apple:hover {
+    cursor: pointer;
+    background-color: #66e2dc;
+  }
+
+  main .card .btn.android:hover {
+    cursor: pointer;
+    background-color: #ffb964;
+  }
+
+  footer {
+    margin-top: 202px;
+  }
+
+  footer .container {
+    width: 1110px;
+    padding: 0 0 91px;
+    position: relative;
+  }
+
+  footer .info {
+    position: absolute;
+    top: 0;
+    left: 285px;
+    width: 366px;
+  }
+
+  footer .socials div:hover {
+    cursor: pointer;
+    background: #fa7453;
   }
 }
