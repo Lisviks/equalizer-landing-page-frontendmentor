@@ -281,7 +281,6 @@ footer .socials div {
 
   footer .socials {
     margin-top: 0;
-    display: flex;
     position: absolute;
     bottom: 114px;
     right: 0;
