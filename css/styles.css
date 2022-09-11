@@ -177,11 +177,6 @@ footer .socials {
   display: flex;
 }
 
-/* footer .socials div {
-  width: 20px;
-  margin-right: 20px;
-} */
-
 footer .socials .facebook {
   mask: url('../assets/icon-facebook.svg');
 }
@@ -225,11 +220,9 @@ footer .socials div {
   }
 
   header .bg-image {
-    position: absolute;
     width: 1250px;
     top: -300px;
     right: -100px;
-    z-index: -5;
   }
 
   header h1 {
@@ -247,7 +240,6 @@ footer .socials div {
 
   main .container {
     background-position: 229px -35px;
-    margin-top: 0;
     width: 696px;
     margin: 0 auto;
   }
