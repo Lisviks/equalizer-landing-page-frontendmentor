@@ -8,7 +8,7 @@
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #f2f2f2;
+  background-color: #fcfaf9;
 }
 
 .container {
@@ -113,22 +113,29 @@ main .card .price {
   letter-spacing: -0.2px;
   margin-top: 36px;
   margin-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 main .card .price span {
   font-weight: 700;
   font-size: 65px;
   line-height: 52px;
+  margin-right: 16px;
 }
 
 main .card .btn {
   width: 100%;
-  padding: 15px 0;
+  padding: 15px 0 14px;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
+  letter-spacing: -0.18px;
   border: none;
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .card .btn img {
@@ -298,6 +305,7 @@ footer .socials div {
   }
 
   .bg-pattern {
+    width: 312px;
     top: -40px;
     right: 0;
   }
